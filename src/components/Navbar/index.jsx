@@ -1,8 +1,9 @@
 import Button from "../Button";
+import { Menu, X } from "lucide-react";
 
 const Navbar = () => {
   return (
-    <nav className="bg-primary text-white px-8 py-3 max-w-7xl mx-auto rounded-full mt-8">
+    <nav className="bg-primary text-white px-8 py-3 max-w-6xl lg:block hidden mx-auto rounded-full mt-8">
       <div className="flex justify-between items-center">
         <div className="flex gap-x-7 items-center">
           <img src="./logo.png" alt="Logo Pastilaris" width={176} height={34} />
